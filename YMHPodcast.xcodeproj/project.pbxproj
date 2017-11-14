@@ -1,0 +1,695 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0007FBA81FB9EC2500AFFF67 /* SitePaths.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007FBA71FB9EC2500AFFF67 /* SitePaths.swift */; };
+		0007FBAA1FBA3A3B00AFFF67 /* SoundBiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007FBA91FBA3A3B00AFFF67 /* SoundBiteCell.swift */; };
+		0007FBAE1FBA60E800AFFF67 /* SoundBites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007FBAD1FBA60E800AFFF67 /* SoundBites.swift */; };
+		0007FBB21FBB3DF100AFFF67 /* YourMomsInTheFuckinStands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBB11FBB3DF000AFFF67 /* YourMomsInTheFuckinStands.mp3 */; };
+		0007FBB51FBB3E3900AFFF67 /* chingChong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBB41FBB3E3900AFFF67 /* chingChong.mp3 */; };
+		0007FBEA1FBB3EA300AFFF67 /* KimAsshole.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBB61FBB3E9C00AFFF67 /* KimAsshole.mp3 */; };
+		0007FBEB1FBB3EA300AFFF67 /* MooseSoupLadyOhMyLord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBB71FBB3E9C00AFFF67 /* MooseSoupLadyOhMyLord.mp3 */; };
+		0007FBF01FBB3EA300AFFF67 /* WhosRandy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBBC1FBB3E9D00AFFF67 /* WhosRandy.mp3 */; };
+		0007FBF71FBB3EA300AFFF67 /* ShitInHere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBC31FBB3E9D00AFFF67 /* ShitInHere.mp3 */; };
+		0007FBF81FBB3EA300AFFF67 /* FuckMeTonight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBC41FBB3E9D00AFFF67 /* FuckMeTonight.mp3 */; };
+		0007FBFD1FBB3EA300AFFF67 /* DontBuyPizzaAtAGasStation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBC91FBB3E9E00AFFF67 /* DontBuyPizzaAtAGasStation.mp3 */; };
+		0007FC001FBB3EA300AFFF67 /* youWannaFuckWitMeMe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBCC1FBB3E9E00AFFF67 /* youWannaFuckWitMeMe.mp3 */; };
+		0007FC021FBB3EA300AFFF67 /* SupNigga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBCE1FBB3E9E00AFFF67 /* SupNigga.mp3 */; };
+		0007FC041FBB3EA300AFFF67 /* EcoSexWTF.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBD01FBB3E9F00AFFF67 /* EcoSexWTF.mp3 */; };
+		0007FC071FBB3EA300AFFF67 /* DoNotHitMeMommy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBD31FBB3E9F00AFFF67 /* DoNotHitMeMommy.mp3 */; };
+		0007FC0A1FBB3EA300AFFF67 /* YallFinished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBD61FBB3E9F00AFFF67 /* YallFinished.mp3 */; };
+		0007FC0C1FBB3EA300AFFF67 /* ThisShitShouldBeEasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBD81FBB3EA000AFFF67 /* ThisShitShouldBeEasy.mp3 */; };
+		0007FC0E1FBB3EA300AFFF67 /* Scatman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBDA1FBB3EA000AFFF67 /* Scatman.mp3 */; };
+		0007FC111FBB3EA300AFFF67 /* WannaTalkSomeShit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBDD1FBB3EA100AFFF67 /* WannaTalkSomeShit.mp3 */; };
+		0007FC141FBB3EA300AFFF67 /* Respek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBE01FBB3EA200AFFF67 /* Respek.mp3 */; };
+		0007FC191FBB3EA300AFFF67 /* JustDial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBE51FBB3EA200AFFF67 /* JustDial.mp3 */; };
+		0007FC1A1FBB3EA300AFFF67 /* KnowWhatImSayin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBE61FBB3EA200AFFF67 /* KnowWhatImSayin.mp3 */; };
+		002BEFB91FBBA6150026E2C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */; };
+		0065053A1FBB98FF00ACB43F /* StylesSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006505391FBB98FF00ACB43F /* StylesSegmentedControl.swift */; };
+		009771511FB8ABEE002A74E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009771501FB8ABEE002A74E1 /* AppDelegate.swift */; };
+		009771561FB8ABEE002A74E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009771541FB8ABEE002A74E1 /* Main.storyboard */; };
+		009771581FB8ABEE002A74E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009771571FB8ABEE002A74E1 /* Assets.xcassets */; };
+		0097715B1FB8ABEE002A74E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009771591FB8ABEE002A74E1 /* LaunchScreen.storyboard */; };
+		009771661FB8ABEE002A74E1 /* YMHPodcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009771651FB8ABEE002A74E1 /* YMHPodcastTests.swift */; };
+		009771711FB8ABEE002A74E1 /* YMHPodcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009771701FB8ABEE002A74E1 /* YMHPodcastUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		009771621FB8ABEE002A74E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009771451FB8ABEE002A74E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0097714C1FB8ABEE002A74E1;
+			remoteInfo = YMHPodcast;
+		};
+		0097716D1FB8ABEE002A74E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 009771451FB8ABEE002A74E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0097714C1FB8ABEE002A74E1;
+			remoteInfo = YMHPodcast;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0007FBA71FB9EC2500AFFF67 /* SitePaths.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitePaths.swift; sourceTree = "<group>"; };
+		0007FBA91FBA3A3B00AFFF67 /* SoundBiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBiteCell.swift; sourceTree = "<group>"; };
+		0007FBAD1FBA60E800AFFF67 /* SoundBites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBites.swift; sourceTree = "<group>"; };
+		0007FBB11FBB3DF000AFFF67 /* YourMomsInTheFuckinStands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YourMomsInTheFuckinStands.mp3; sourceTree = "<group>"; };
+		0007FBB41FBB3E3900AFFF67 /* chingChong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chingChong.mp3; sourceTree = "<group>"; };
+		0007FBB61FBB3E9C00AFFF67 /* KimAsshole.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KimAsshole.mp3; sourceTree = "<group>"; };
+		0007FBB71FBB3E9C00AFFF67 /* MooseSoupLadyOhMyLord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MooseSoupLadyOhMyLord.mp3; sourceTree = "<group>"; };
+		0007FBBC1FBB3E9D00AFFF67 /* WhosRandy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhosRandy.mp3; sourceTree = "<group>"; };
+		0007FBC31FBB3E9D00AFFF67 /* ShitInHere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShitInHere.mp3; sourceTree = "<group>"; };
+		0007FBC41FBB3E9D00AFFF67 /* FuckMeTonight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FuckMeTonight.mp3; sourceTree = "<group>"; };
+		0007FBC91FBB3E9E00AFFF67 /* DontBuyPizzaAtAGasStation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DontBuyPizzaAtAGasStation.mp3; sourceTree = "<group>"; };
+		0007FBCC1FBB3E9E00AFFF67 /* youWannaFuckWitMeMe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = youWannaFuckWitMeMe.mp3; sourceTree = "<group>"; };
+		0007FBCE1FBB3E9E00AFFF67 /* SupNigga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SupNigga.mp3; sourceTree = "<group>"; };
+		0007FBD01FBB3E9F00AFFF67 /* EcoSexWTF.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EcoSexWTF.mp3; sourceTree = "<group>"; };
+		0007FBD31FBB3E9F00AFFF67 /* DoNotHitMeMommy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoNotHitMeMommy.mp3; sourceTree = "<group>"; };
+		0007FBD61FBB3E9F00AFFF67 /* YallFinished.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YallFinished.mp3; sourceTree = "<group>"; };
+		0007FBD81FBB3EA000AFFF67 /* ThisShitShouldBeEasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ThisShitShouldBeEasy.mp3; sourceTree = "<group>"; };
+		0007FBDA1FBB3EA000AFFF67 /* Scatman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scatman.mp3; sourceTree = "<group>"; };
+		0007FBDD1FBB3EA100AFFF67 /* WannaTalkSomeShit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WannaTalkSomeShit.mp3; sourceTree = "<group>"; };
+		0007FBE01FBB3EA200AFFF67 /* Respek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Respek.mp3; sourceTree = "<group>"; };
+		0007FBE51FBB3EA200AFFF67 /* JustDial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JustDial.mp3; sourceTree = "<group>"; };
+		0007FBE61FBB3EA200AFFF67 /* KnowWhatImSayin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KnowWhatImSayin.mp3; sourceTree = "<group>"; };
+		002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		006505391FBB98FF00ACB43F /* StylesSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesSegmentedControl.swift; sourceTree = "<group>"; };
+		0097714D1FB8ABEE002A74E1 /* YMHPodcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMHPodcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		009771501FB8ABEE002A74E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		009771551FB8ABEE002A74E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		009771571FB8ABEE002A74E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0097715A1FB8ABEE002A74E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0097715C1FB8ABEE002A74E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		009771611FB8ABEE002A74E1 /* YMHPodcastTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMHPodcastTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009771651FB8ABEE002A74E1 /* YMHPodcastTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMHPodcastTests.swift; sourceTree = "<group>"; };
+		009771671FB8ABEE002A74E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0097716C1FB8ABEE002A74E1 /* YMHPodcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMHPodcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		009771701FB8ABEE002A74E1 /* YMHPodcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMHPodcastUITests.swift; sourceTree = "<group>"; };
+		009771721FB8ABEE002A74E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0097714A1FB8ABEE002A74E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0097715E1FB8ABEE002A74E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009771691FB8ABEE002A74E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0007FBA31FB9EB0E00AFFF67 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0007FBA91FBA3A3B00AFFF67 /* SoundBiteCell.swift */,
+				0007FBAD1FBA60E800AFFF67 /* SoundBites.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0007FBA41FB9EB1500AFFF67 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				006505391FBB98FF00ACB43F /* StylesSegmentedControl.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0007FBA51FB9EB1B00AFFF67 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0007FBA61FB9EB2500AFFF67 /* Paths */ = {
+			isa = PBXGroup;
+			children = (
+				0007FBA71FB9EC2500AFFF67 /* SitePaths.swift */,
+			);
+			path = Paths;
+			sourceTree = "<group>";
+		};
+		0007FBB31FBB3E2100AFFF67 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0007FBD31FBB3E9F00AFFF67 /* DoNotHitMeMommy.mp3 */,
+				0007FBC91FBB3E9E00AFFF67 /* DontBuyPizzaAtAGasStation.mp3 */,
+				0007FBD01FBB3E9F00AFFF67 /* EcoSexWTF.mp3 */,
+				0007FBC41FBB3E9D00AFFF67 /* FuckMeTonight.mp3 */,
+				0007FBC31FBB3E9D00AFFF67 /* ShitInHere.mp3 */,
+				0007FBB61FBB3E9C00AFFF67 /* KimAsshole.mp3 */,
+				0007FBE61FBB3EA200AFFF67 /* KnowWhatImSayin.mp3 */,
+				0007FBB71FBB3E9C00AFFF67 /* MooseSoupLadyOhMyLord.mp3 */,
+				0007FBE01FBB3EA200AFFF67 /* Respek.mp3 */,
+				0007FBDA1FBB3EA000AFFF67 /* Scatman.mp3 */,
+				0007FBD81FBB3EA000AFFF67 /* ThisShitShouldBeEasy.mp3 */,
+				0007FBE51FBB3EA200AFFF67 /* JustDial.mp3 */,
+				0007FBCE1FBB3E9E00AFFF67 /* SupNigga.mp3 */,
+				0007FBDD1FBB3EA100AFFF67 /* WannaTalkSomeShit.mp3 */,
+				0007FBBC1FBB3E9D00AFFF67 /* WhosRandy.mp3 */,
+				0007FBD61FBB3E9F00AFFF67 /* YallFinished.mp3 */,
+				0007FBCC1FBB3E9E00AFFF67 /* youWannaFuckWitMeMe.mp3 */,
+				0007FBB41FBB3E3900AFFF67 /* chingChong.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+		009771441FB8ABED002A74E1 = {
+			isa = PBXGroup;
+			children = (
+				0097714F1FB8ABEE002A74E1 /* YMHPodcast */,
+				009771641FB8ABEE002A74E1 /* YMHPodcastTests */,
+				0097716F1FB8ABEE002A74E1 /* YMHPodcastUITests */,
+				0097714E1FB8ABEE002A74E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0097714E1FB8ABEE002A74E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0097714D1FB8ABEE002A74E1 /* YMHPodcast.app */,
+				009771611FB8ABEE002A74E1 /* YMHPodcastTests.xctest */,
+				0097716C1FB8ABEE002A74E1 /* YMHPodcastUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0097714F1FB8ABEE002A74E1 /* YMHPodcast */ = {
+			isa = PBXGroup;
+			children = (
+				0007FBB31FBB3E2100AFFF67 /* Sounds */,
+				0007FBA61FB9EB2500AFFF67 /* Paths */,
+				0007FBA51FB9EB1B00AFFF67 /* Controller */,
+				0007FBA41FB9EB1500AFFF67 /* View */,
+				0007FBA31FB9EB0E00AFFF67 /* Model */,
+				009771501FB8ABEE002A74E1 /* AppDelegate.swift */,
+				009771541FB8ABEE002A74E1 /* Main.storyboard */,
+				009771571FB8ABEE002A74E1 /* Assets.xcassets */,
+				0007FBB11FBB3DF000AFFF67 /* YourMomsInTheFuckinStands.mp3 */,
+				009771591FB8ABEE002A74E1 /* LaunchScreen.storyboard */,
+				0097715C1FB8ABEE002A74E1 /* Info.plist */,
+			);
+			path = YMHPodcast;
+			sourceTree = "<group>";
+		};
+		009771641FB8ABEE002A74E1 /* YMHPodcastTests */ = {
+			isa = PBXGroup;
+			children = (
+				009771651FB8ABEE002A74E1 /* YMHPodcastTests.swift */,
+				009771671FB8ABEE002A74E1 /* Info.plist */,
+			);
+			path = YMHPodcastTests;
+			sourceTree = "<group>";
+		};
+		0097716F1FB8ABEE002A74E1 /* YMHPodcastUITests */ = {
+			isa = PBXGroup;
+			children = (
+				009771701FB8ABEE002A74E1 /* YMHPodcastUITests.swift */,
+				009771721FB8ABEE002A74E1 /* Info.plist */,
+			);
+			path = YMHPodcastUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0097714C1FB8ABEE002A74E1 /* YMHPodcast */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009771751FB8ABEE002A74E1 /* Build configuration list for PBXNativeTarget "YMHPodcast" */;
+			buildPhases = (
+				009771491FB8ABEE002A74E1 /* Sources */,
+				0097714A1FB8ABEE002A74E1 /* Frameworks */,
+				0097714B1FB8ABEE002A74E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YMHPodcast;
+			productName = YMHPodcast;
+			productReference = 0097714D1FB8ABEE002A74E1 /* YMHPodcast.app */;
+			productType = "com.apple.product-type.application";
+		};
+		009771601FB8ABEE002A74E1 /* YMHPodcastTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 009771781FB8ABEE002A74E1 /* Build configuration list for PBXNativeTarget "YMHPodcastTests" */;
+			buildPhases = (
+				0097715D1FB8ABEE002A74E1 /* Sources */,
+				0097715E1FB8ABEE002A74E1 /* Frameworks */,
+				0097715F1FB8ABEE002A74E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				009771631FB8ABEE002A74E1 /* PBXTargetDependency */,
+			);
+			name = YMHPodcastTests;
+			productName = YMHPodcastTests;
+			productReference = 009771611FB8ABEE002A74E1 /* YMHPodcastTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0097716B1FB8ABEE002A74E1 /* YMHPodcastUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0097717B1FB8ABEE002A74E1 /* Build configuration list for PBXNativeTarget "YMHPodcastUITests" */;
+			buildPhases = (
+				009771681FB8ABEE002A74E1 /* Sources */,
+				009771691FB8ABEE002A74E1 /* Frameworks */,
+				0097716A1FB8ABEE002A74E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0097716E1FB8ABEE002A74E1 /* PBXTargetDependency */,
+			);
+			name = YMHPodcastUITests;
+			productName = YMHPodcastUITests;
+			productReference = 0097716C1FB8ABEE002A74E1 /* YMHPodcastUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		009771451FB8ABEE002A74E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Arthur Pujols";
+				TargetAttributes = {
+					0097714C1FB8ABEE002A74E1 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					009771601FB8ABEE002A74E1 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0097714C1FB8ABEE002A74E1;
+					};
+					0097716B1FB8ABEE002A74E1 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0097714C1FB8ABEE002A74E1;
+					};
+				};
+			};
+			buildConfigurationList = 009771481FB8ABEE002A74E1 /* Build configuration list for PBXProject "YMHPodcast" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 009771441FB8ABED002A74E1;
+			productRefGroup = 0097714E1FB8ABEE002A74E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0097714C1FB8ABEE002A74E1 /* YMHPodcast */,
+				009771601FB8ABEE002A74E1 /* YMHPodcastTests */,
+				0097716B1FB8ABEE002A74E1 /* YMHPodcastUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0097714B1FB8ABEE002A74E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0097715B1FB8ABEE002A74E1 /* LaunchScreen.storyboard in Resources */,
+				0007FBF81FBB3EA300AFFF67 /* FuckMeTonight.mp3 in Resources */,
+				0007FC041FBB3EA300AFFF67 /* EcoSexWTF.mp3 in Resources */,
+				0007FC0C1FBB3EA300AFFF67 /* ThisShitShouldBeEasy.mp3 in Resources */,
+				0007FC071FBB3EA300AFFF67 /* DoNotHitMeMommy.mp3 in Resources */,
+				0007FBEB1FBB3EA300AFFF67 /* MooseSoupLadyOhMyLord.mp3 in Resources */,
+				0007FBFD1FBB3EA300AFFF67 /* DontBuyPizzaAtAGasStation.mp3 in Resources */,
+				0007FC111FBB3EA300AFFF67 /* WannaTalkSomeShit.mp3 in Resources */,
+				0007FBEA1FBB3EA300AFFF67 /* KimAsshole.mp3 in Resources */,
+				0007FBB21FBB3DF100AFFF67 /* YourMomsInTheFuckinStands.mp3 in Resources */,
+				0007FBB51FBB3E3900AFFF67 /* chingChong.mp3 in Resources */,
+				009771581FB8ABEE002A74E1 /* Assets.xcassets in Resources */,
+				0007FC001FBB3EA300AFFF67 /* youWannaFuckWitMeMe.mp3 in Resources */,
+				0007FC191FBB3EA300AFFF67 /* JustDial.mp3 in Resources */,
+				0007FBF01FBB3EA300AFFF67 /* WhosRandy.mp3 in Resources */,
+				0007FC1A1FBB3EA300AFFF67 /* KnowWhatImSayin.mp3 in Resources */,
+				009771561FB8ABEE002A74E1 /* Main.storyboard in Resources */,
+				0007FBF71FBB3EA300AFFF67 /* ShitInHere.mp3 in Resources */,
+				0007FC141FBB3EA300AFFF67 /* Respek.mp3 in Resources */,
+				0007FC021FBB3EA300AFFF67 /* SupNigga.mp3 in Resources */,
+				0007FC0A1FBB3EA300AFFF67 /* YallFinished.mp3 in Resources */,
+				0007FC0E1FBB3EA300AFFF67 /* Scatman.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0097715F1FB8ABEE002A74E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0097716A1FB8ABEE002A74E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		009771491FB8ABEE002A74E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0007FBA81FB9EC2500AFFF67 /* SitePaths.swift in Sources */,
+				0007FBAE1FBA60E800AFFF67 /* SoundBites.swift in Sources */,
+				009771511FB8ABEE002A74E1 /* AppDelegate.swift in Sources */,
+				0065053A1FBB98FF00ACB43F /* StylesSegmentedControl.swift in Sources */,
+				002BEFB91FBBA6150026E2C8 /* HomeViewController.swift in Sources */,
+				0007FBAA1FBA3A3B00AFFF67 /* SoundBiteCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0097715D1FB8ABEE002A74E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009771661FB8ABEE002A74E1 /* YMHPodcastTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		009771681FB8ABEE002A74E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				009771711FB8ABEE002A74E1 /* YMHPodcastUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		009771631FB8ABEE002A74E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0097714C1FB8ABEE002A74E1 /* YMHPodcast */;
+			targetProxy = 009771621FB8ABEE002A74E1 /* PBXContainerItemProxy */;
+		};
+		0097716E1FB8ABEE002A74E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0097714C1FB8ABEE002A74E1 /* YMHPodcast */;
+			targetProxy = 0097716D1FB8ABEE002A74E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		009771541FB8ABEE002A74E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				009771551FB8ABEE002A74E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		009771591FB8ABEE002A74E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0097715A1FB8ABEE002A74E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		009771731FB8ABEE002A74E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		009771741FB8ABEE002A74E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		009771761FB8ABEE002A74E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = YMHPodcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacAll-Dev.YMHPodcast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		009771771FB8ABEE002A74E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = YMHPodcast/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacAll-Dev.YMHPodcast";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		009771791FB8ABEE002A74E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = YMHPodcastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacAll-Dev.YMHPodcastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMHPodcast.app/YMHPodcast";
+			};
+			name = Debug;
+		};
+		0097717A1FB8ABEE002A74E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = YMHPodcastTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacAll-Dev.YMHPodcastTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YMHPodcast.app/YMHPodcast";
+			};
+			name = Release;
+		};
+		0097717C1FB8ABEE002A74E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = YMHPodcastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacAll-Dev.YMHPodcastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YMHPodcast;
+			};
+			name = Debug;
+		};
+		0097717D1FB8ABEE002A74E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				INFOPLIST_FILE = YMHPodcastUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "JacAll-Dev.YMHPodcastUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YMHPodcast;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		009771481FB8ABEE002A74E1 /* Build configuration list for PBXProject "YMHPodcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009771731FB8ABEE002A74E1 /* Debug */,
+				009771741FB8ABEE002A74E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009771751FB8ABEE002A74E1 /* Build configuration list for PBXNativeTarget "YMHPodcast" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009771761FB8ABEE002A74E1 /* Debug */,
+				009771771FB8ABEE002A74E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		009771781FB8ABEE002A74E1 /* Build configuration list for PBXNativeTarget "YMHPodcastTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				009771791FB8ABEE002A74E1 /* Debug */,
+				0097717A1FB8ABEE002A74E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0097717B1FB8ABEE002A74E1 /* Build configuration list for PBXNativeTarget "YMHPodcastUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0097717C1FB8ABEE002A74E1 /* Debug */,
+				0097717D1FB8ABEE002A74E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 009771451FB8ABEE002A74E1 /* Project object */;
+}

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13527"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="AvenirNext.ttc">
+            <string>AvenirNext-Heavy</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Home View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="HomeViewController" customModule="YMHPodcast" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleAspectFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mommies" translatesAutoresizingMaskIntoConstraints="NO" id="2zF-EB-ba4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="219"/>
+                            </imageView>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="DU2-N8-eSS" customClass="StylesSegmentedControl" customModule="YMHPodcast" customModuleProvider="target">
+                                <rect key="frame" x="-2" y="219" width="380" height="29"/>
+                                <segments>
+                                    <segment title="YouTube"/>
+                                    <segment title="Sound Bites"/>
+                                    <segment title="Clips"/>
+                                    <segment title="Merch"/>
+                                </segments>
+                                <connections>
+                                    <action selector="segmentControllerTapped:" destination="BYZ-38-t0r" eventType="valueChanged" id="GW3-Qh-TiE"/>
+                                </connections>
+                            </segmentedControl>
+                            <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HzG-GM-VDZ">
+                                <rect key="frame" x="0.0" y="247" width="375" height="420"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <wkWebViewConfiguration key="configuration">
+                                    <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                                    <wkPreferences key="preferences"/>
+                                </wkWebViewConfiguration>
+                            </wkWebView>
+                            <tableView hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vg2-Rw-GBD">
+                                <rect key="frame" x="0.0" y="247" width="375" height="420"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="soundBiteCell" id="Mr6-f4-T5k" customClass="SoundBiteCell" customModule="YMHPodcast" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Mr6-f4-T5k" id="FbO-Yo-kTc">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="You make my pussy dry" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="18" translatesAutoresizingMaskIntoConstraints="NO" id="cq4-jR-A2Z">
+                                                    <rect key="frame" x="71.5" y="9" width="232.5" height="26"/>
+                                                    <fontDescription key="fontDescription" name="AvenirNext-Heavy" family="Avenir Next" pointSize="19"/>
+                                                    <color key="textColor" red="0.26051741839999998" green="0.2605243921" blue="0.260520637" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="cq4-jR-A2Z" firstAttribute="centerX" secondItem="FbO-Yo-kTc" secondAttribute="centerX" id="44L-BZ-tQL"/>
+                                                <constraint firstItem="cq4-jR-A2Z" firstAttribute="centerY" secondItem="FbO-Yo-kTc" secondAttribute="centerY" id="Djk-XV-61c"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="titleLabel" destination="cq4-jR-A2Z" id="kcB-fM-1xC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="vg2-Rw-GBD" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="10z-L1-s4T"/>
+                            <constraint firstItem="2zF-EB-ba4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="6Nh-P9-O8h"/>
+                            <constraint firstItem="HzG-GM-VDZ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="7NI-kn-305"/>
+                            <constraint firstItem="2zF-EB-ba4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="AWP-o8-zBE"/>
+                            <constraint firstItem="2zF-EB-ba4" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Bm4-5k-Ap6"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="2zF-EB-ba4" secondAttribute="bottom" constant="448" id="Kcb-ri-74V"/>
+                            <constraint firstItem="vg2-Rw-GBD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="OFC-Lz-gcO"/>
+                            <constraint firstItem="DU2-N8-eSS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="3" id="SIo-vl-p5g"/>
+                            <constraint firstItem="DU2-N8-eSS" firstAttribute="top" secondItem="2zF-EB-ba4" secondAttribute="bottom" id="byP-aM-yQd"/>
+                            <constraint firstItem="vg2-Rw-GBD" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="eQS-Kg-XlF"/>
+                            <constraint firstItem="DU2-N8-eSS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="-2" id="fQW-cY-EcS"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="HzG-GM-VDZ" secondAttribute="bottom" id="jrU-NK-1Xu"/>
+                            <constraint firstItem="vg2-Rw-GBD" firstAttribute="top" secondItem="DU2-N8-eSS" secondAttribute="bottom" id="kU5-J9-Kzk"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="HzG-GM-VDZ" secondAttribute="trailing" id="keO-Gk-e3v"/>
+                            <constraint firstItem="HzG-GM-VDZ" firstAttribute="top" secondItem="DU2-N8-eSS" secondAttribute="bottom" id="lVt-ne-JuY"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="mommyImageView" destination="2zF-EB-ba4" id="xpc-WI-fKQ"/>
+                        <outlet property="segmentController" destination="DU2-N8-eSS" id="m2A-WY-RjC"/>
+                        <outlet property="tableView" destination="vg2-Rw-GBD" id="A9M-6u-KIi"/>
+                        <outlet property="webView" destination="HzG-GM-VDZ" id="kje-6c-iGY"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-79.200000000000003" y="132.68365817091455"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mommies" width="600" height="400"/>
+    </resources>
+</document>
