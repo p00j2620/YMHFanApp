@@ -22,6 +22,7 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 	//Variables and Constants
 	var player: AVAudioPlayer!
 	var biteArray: [SoundBite] = []
+	var audioPlayerArray: [AVAudioPlayer] = []
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -51,6 +52,8 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 		case 3:
 			showWebView()
 			loadSite(site: ymhMerchPage)
+		case 4:
+			performSegue(withIdentifier: "toTourDateVC", sender: self)
 		default:
 			print("Error: \(debugDescription)")
 		}
@@ -111,8 +114,12 @@ class HomeViewController: UIViewController, UITableViewDataSource, UITableViewDe
 	}
 	
 	func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-		
+		if audioPlayerArray != [] {
+			biteArray[indexPath.row].stopAllPlayback(audioPlayerArray: audioPlayerArray)
+		}
 		biteArray[indexPath.row].playSound(filePath: biteArray[indexPath.row].filePath)
+		audioPlayerArray.append(biteArray[indexPath.row].audioPlayer)
+		
 		
 	}
 	

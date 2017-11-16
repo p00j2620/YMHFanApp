@@ -10,7 +10,7 @@ import Foundation
 import AVFoundation
 
 
-var biteArray = [SoundBite]()
+//var biteArray = [SoundBite]()
 
 
 struct SoundBite {
@@ -25,6 +25,11 @@ struct SoundBite {
 
 	var audioPlayer: AVAudioPlayer!
 	
+	func stopAllPlayback(audioPlayerArray: [AVAudioPlayer]) {
+		for player in audioPlayerArray {
+			player.stop()
+		}
+	}
 	
 	mutating func playSound(filePath: URL) {
 		let path = filePath
@@ -32,13 +37,10 @@ struct SoundBite {
 		do {
 			audioPlayer = try AVAudioPlayer(contentsOf: path)
 			guard let audioPlayer = audioPlayer else { return }
-			
 			audioPlayer.prepareToPlay()
 			
 			audioPlayer.play()
-			
-			
-			
+		
 		} catch let err as Error {
 			print(err.localizedDescription.debugDescription)
 		}

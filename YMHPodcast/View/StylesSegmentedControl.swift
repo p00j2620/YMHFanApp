@@ -8,6 +8,7 @@
 
 import UIKit
 
+
 class StylesSegmentedControl: UISegmentedControl {
 	
 	let selectedBackgroundColor = UIColor(red: 66/255, green: 66/255, blue: 66/255, alpha: 0.50)

@@ -21,7 +21,11 @@ let ymhClipsPlaylist = "http://www.yourmomshousepodcast.com/clips-1/"
 // YMH merch site link for webview
 let ymhMerchPage = "https://merchmethod.com/collections/tom-segura"
 
+// Mommy Tina's tour date link for TourDatesVC webview
+let tinaTourURL = "http://christinaponline.com/tour-dates"
 
+// Mommy Bunz tour date  link for TourDateVC webview
+let tomTourURL = "http://tomsegura.com/tour/"
 
 
 // FILE PATHS FOR AUDIO

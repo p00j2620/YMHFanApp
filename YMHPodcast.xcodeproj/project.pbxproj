@@ -30,6 +30,7 @@
 		0007FC191FBB3EA300AFFF67 /* JustDial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBE51FBB3EA200AFFF67 /* JustDial.mp3 */; };
 		0007FC1A1FBB3EA300AFFF67 /* KnowWhatImSayin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBE61FBB3EA200AFFF67 /* KnowWhatImSayin.mp3 */; };
 		002BEFB91FBBA6150026E2C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */; };
+		002E92A21FBD2579008220D7 /* TourDatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002E92A11FBD2579008220D7 /* TourDatesVC.swift */; };
 		0065053A1FBB98FF00ACB43F /* StylesSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006505391FBB98FF00ACB43F /* StylesSegmentedControl.swift */; };
 		009771511FB8ABEE002A74E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009771501FB8ABEE002A74E1 /* AppDelegate.swift */; };
 		009771561FB8ABEE002A74E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009771541FB8ABEE002A74E1 /* Main.storyboard */; };
@@ -80,6 +81,7 @@
 		0007FBE51FBB3EA200AFFF67 /* JustDial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JustDial.mp3; sourceTree = "<group>"; };
 		0007FBE61FBB3EA200AFFF67 /* KnowWhatImSayin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KnowWhatImSayin.mp3; sourceTree = "<group>"; };
 		002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		002E92A11FBD2579008220D7 /* TourDatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourDatesVC.swift; sourceTree = "<group>"; };
 		006505391FBB98FF00ACB43F /* StylesSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesSegmentedControl.swift; sourceTree = "<group>"; };
 		0097714D1FB8ABEE002A74E1 /* YMHPodcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMHPodcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009771501FB8ABEE002A74E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 			isa = PBXGroup;
 			children = (
 				002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */,
+				002E92A11FBD2579008220D7 /* TourDatesVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -393,6 +396,7 @@
 				0065053A1FBB98FF00ACB43F /* StylesSegmentedControl.swift in Sources */,
 				002BEFB91FBBA6150026E2C8 /* HomeViewController.swift in Sources */,
 				0007FBAA1FBA3A3B00AFFF67 /* SoundBiteCell.swift in Sources */,
+				002E92A21FBD2579008220D7 /* TourDatesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
