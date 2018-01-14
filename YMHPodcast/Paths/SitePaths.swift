@@ -27,7 +27,18 @@ let tinaTourURL = "http://christinaponline.com/tour-dates"
 // Mommy Bunz tour date  link for TourDateVC webview
 let tomTourURL = "http://tomsegura.com/tour/"
 
+// URL for your moms house drops website 
+let momDropSiteURL = "https://yourmomdrops.com/?s="
+
+// URL for Art donation  page
+let artDonationPage = "https://www.paypal.me/ArthurPujols"
+
+// URL for Tim donation page
+let timDonationPage = "https://www.paypal.me/tkillea"
+
 
 // FILE PATHS FOR AUDIO
 
 let introSoundBite = Bundle.main.url(forResource: "YourMomsInTheFuckinStands", withExtension: "mp3")
+
+

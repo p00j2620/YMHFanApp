@@ -11,33 +11,32 @@
 		0007FBAA1FBA3A3B00AFFF67 /* SoundBiteCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007FBA91FBA3A3B00AFFF67 /* SoundBiteCell.swift */; };
 		0007FBAE1FBA60E800AFFF67 /* SoundBites.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0007FBAD1FBA60E800AFFF67 /* SoundBites.swift */; };
 		0007FBB21FBB3DF100AFFF67 /* YourMomsInTheFuckinStands.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBB11FBB3DF000AFFF67 /* YourMomsInTheFuckinStands.mp3 */; };
-		0007FBB51FBB3E3900AFFF67 /* chingChong.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBB41FBB3E3900AFFF67 /* chingChong.mp3 */; };
-		0007FBEA1FBB3EA300AFFF67 /* KimAsshole.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBB61FBB3E9C00AFFF67 /* KimAsshole.mp3 */; };
-		0007FBEB1FBB3EA300AFFF67 /* MooseSoupLadyOhMyLord.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBB71FBB3E9C00AFFF67 /* MooseSoupLadyOhMyLord.mp3 */; };
-		0007FBF01FBB3EA300AFFF67 /* WhosRandy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBBC1FBB3E9D00AFFF67 /* WhosRandy.mp3 */; };
-		0007FBF71FBB3EA300AFFF67 /* ShitInHere.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBC31FBB3E9D00AFFF67 /* ShitInHere.mp3 */; };
-		0007FBF81FBB3EA300AFFF67 /* FuckMeTonight.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBC41FBB3E9D00AFFF67 /* FuckMeTonight.mp3 */; };
-		0007FBFD1FBB3EA300AFFF67 /* DontBuyPizzaAtAGasStation.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBC91FBB3E9E00AFFF67 /* DontBuyPizzaAtAGasStation.mp3 */; };
-		0007FC001FBB3EA300AFFF67 /* youWannaFuckWitMeMe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBCC1FBB3E9E00AFFF67 /* youWannaFuckWitMeMe.mp3 */; };
-		0007FC021FBB3EA300AFFF67 /* SupNigga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBCE1FBB3E9E00AFFF67 /* SupNigga.mp3 */; };
-		0007FC041FBB3EA300AFFF67 /* EcoSexWTF.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBD01FBB3E9F00AFFF67 /* EcoSexWTF.mp3 */; };
-		0007FC071FBB3EA300AFFF67 /* DoNotHitMeMommy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBD31FBB3E9F00AFFF67 /* DoNotHitMeMommy.mp3 */; };
-		0007FC0A1FBB3EA300AFFF67 /* YallFinished.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBD61FBB3E9F00AFFF67 /* YallFinished.mp3 */; };
-		0007FC0C1FBB3EA300AFFF67 /* ThisShitShouldBeEasy.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBD81FBB3EA000AFFF67 /* ThisShitShouldBeEasy.mp3 */; };
-		0007FC0E1FBB3EA300AFFF67 /* Scatman.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBDA1FBB3EA000AFFF67 /* Scatman.mp3 */; };
-		0007FC111FBB3EA300AFFF67 /* WannaTalkSomeShit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBDD1FBB3EA100AFFF67 /* WannaTalkSomeShit.mp3 */; };
-		0007FC141FBB3EA300AFFF67 /* Respek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBE01FBB3EA200AFFF67 /* Respek.mp3 */; };
-		0007FC191FBB3EA300AFFF67 /* JustDial.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBE51FBB3EA200AFFF67 /* JustDial.mp3 */; };
-		0007FC1A1FBB3EA300AFFF67 /* KnowWhatImSayin.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0007FBE61FBB3EA200AFFF67 /* KnowWhatImSayin.mp3 */; };
+		00213ECA1FC1CB3A000EEAD7 /* CreateArrayFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00213EC91FC1CB3A000EEAD7 /* CreateArrayFunction.swift */; };
 		002BEFB91FBBA6150026E2C8 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */; };
 		002E92A21FBD2579008220D7 /* TourDatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 002E92A11FBD2579008220D7 /* TourDatesVC.swift */; };
 		0065053A1FBB98FF00ACB43F /* StylesSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 006505391FBB98FF00ACB43F /* StylesSegmentedControl.swift */; };
+		0094B6C22007A1A0002638F0 /* mainImg.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0094B6C12007A19F002638F0 /* mainImg.jpg */; };
+		0094B6C62007A8D1002638F0 /* DonationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094B6C52007A8D1002638F0 /* DonationVC.swift */; };
+		0094B6C82007E2BB002638F0 /* sideBySide.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0094B6C72007E2BB002638F0 /* sideBySide.jpg */; };
+		0094B6CA2007F4D4002638F0 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0094B6C92007F4D4002638F0 /* CircleButton.swift */; };
 		009771511FB8ABEE002A74E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009771501FB8ABEE002A74E1 /* AppDelegate.swift */; };
 		009771561FB8ABEE002A74E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009771541FB8ABEE002A74E1 /* Main.storyboard */; };
 		009771581FB8ABEE002A74E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 009771571FB8ABEE002A74E1 /* Assets.xcassets */; };
 		0097715B1FB8ABEE002A74E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 009771591FB8ABEE002A74E1 /* LaunchScreen.storyboard */; };
 		009771661FB8ABEE002A74E1 /* YMHPodcastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009771651FB8ABEE002A74E1 /* YMHPodcastTests.swift */; };
 		009771711FB8ABEE002A74E1 /* YMHPodcastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009771701FB8ABEE002A74E1 /* YMHPodcastUITests.swift */; };
+		0098C5F5200A7F4E003E2FB2 /* ArtDonationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098C5F4200A7F4E003E2FB2 /* ArtDonationPage.swift */; };
+		0098C5F7200A845F003E2FB2 /* TimDonationPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0098C5F6200A845F003E2FB2 /* TimDonationPage.swift */; };
+		0098C5FB200BC672003E2FB2 /* theo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 0098C5FA200BC672003E2FB2 /* theo.JPG */; };
+		0098C5FE200BCEB8003E2FB2 /* jeans.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0098C5FD200BCEB8003E2FB2 /* jeans.mp3 */; };
+		0098C600200BCEF8003E2FB2 /* WipeDown.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0098C5FF200BCEF8003E2FB2 /* WipeDown.mp3 */; };
+		0098C602200BCF11003E2FB2 /* BigWords.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0098C601200BCF11003E2FB2 /* BigWords.mp3 */; };
+		0098C604200BCF2A003E2FB2 /* DirtyBitch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0098C603200BCF2A003E2FB2 /* DirtyBitch.mp3 */; };
+		0098C606200BCF31003E2FB2 /* DoingGood.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0098C605200BCF31003E2FB2 /* DoingGood.mp3 */; };
+		0098C608200BCF49003E2FB2 /* talkShit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0098C607200BCF49003E2FB2 /* talkShit.mp3 */; };
+		00EBBD8A2005449C00804614 /* momSoundBoard.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 00EBBD892005449B00804614 /* momSoundBoard.jpg */; };
+		00EBBD8C2005462200804614 /* dancingMommies.gif in Resources */ = {isa = PBXBuildFile; fileRef = 00EBBD8B2005462100804614 /* dancingMommies.gif */; };
+		00EBBD8E200548B100804614 /* podcastIntro.png in Resources */ = {isa = PBXBuildFile; fileRef = 00EBBD8D200548B100804614 /* podcastIntro.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,27 +61,14 @@
 		0007FBA91FBA3A3B00AFFF67 /* SoundBiteCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBiteCell.swift; sourceTree = "<group>"; };
 		0007FBAD1FBA60E800AFFF67 /* SoundBites.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundBites.swift; sourceTree = "<group>"; };
 		0007FBB11FBB3DF000AFFF67 /* YourMomsInTheFuckinStands.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YourMomsInTheFuckinStands.mp3; sourceTree = "<group>"; };
-		0007FBB41FBB3E3900AFFF67 /* chingChong.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = chingChong.mp3; sourceTree = "<group>"; };
-		0007FBB61FBB3E9C00AFFF67 /* KimAsshole.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KimAsshole.mp3; sourceTree = "<group>"; };
-		0007FBB71FBB3E9C00AFFF67 /* MooseSoupLadyOhMyLord.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MooseSoupLadyOhMyLord.mp3; sourceTree = "<group>"; };
-		0007FBBC1FBB3E9D00AFFF67 /* WhosRandy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WhosRandy.mp3; sourceTree = "<group>"; };
-		0007FBC31FBB3E9D00AFFF67 /* ShitInHere.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShitInHere.mp3; sourceTree = "<group>"; };
-		0007FBC41FBB3E9D00AFFF67 /* FuckMeTonight.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = FuckMeTonight.mp3; sourceTree = "<group>"; };
-		0007FBC91FBB3E9E00AFFF67 /* DontBuyPizzaAtAGasStation.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DontBuyPizzaAtAGasStation.mp3; sourceTree = "<group>"; };
-		0007FBCC1FBB3E9E00AFFF67 /* youWannaFuckWitMeMe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = youWannaFuckWitMeMe.mp3; sourceTree = "<group>"; };
-		0007FBCE1FBB3E9E00AFFF67 /* SupNigga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = SupNigga.mp3; sourceTree = "<group>"; };
-		0007FBD01FBB3E9F00AFFF67 /* EcoSexWTF.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = EcoSexWTF.mp3; sourceTree = "<group>"; };
-		0007FBD31FBB3E9F00AFFF67 /* DoNotHitMeMommy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoNotHitMeMommy.mp3; sourceTree = "<group>"; };
-		0007FBD61FBB3E9F00AFFF67 /* YallFinished.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = YallFinished.mp3; sourceTree = "<group>"; };
-		0007FBD81FBB3EA000AFFF67 /* ThisShitShouldBeEasy.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ThisShitShouldBeEasy.mp3; sourceTree = "<group>"; };
-		0007FBDA1FBB3EA000AFFF67 /* Scatman.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Scatman.mp3; sourceTree = "<group>"; };
-		0007FBDD1FBB3EA100AFFF67 /* WannaTalkSomeShit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WannaTalkSomeShit.mp3; sourceTree = "<group>"; };
-		0007FBE01FBB3EA200AFFF67 /* Respek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Respek.mp3; sourceTree = "<group>"; };
-		0007FBE51FBB3EA200AFFF67 /* JustDial.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = JustDial.mp3; sourceTree = "<group>"; };
-		0007FBE61FBB3EA200AFFF67 /* KnowWhatImSayin.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = KnowWhatImSayin.mp3; sourceTree = "<group>"; };
+		00213EC91FC1CB3A000EEAD7 /* CreateArrayFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateArrayFunction.swift; sourceTree = "<group>"; };
 		002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		002E92A11FBD2579008220D7 /* TourDatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TourDatesVC.swift; sourceTree = "<group>"; };
 		006505391FBB98FF00ACB43F /* StylesSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StylesSegmentedControl.swift; sourceTree = "<group>"; };
+		0094B6C12007A19F002638F0 /* mainImg.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mainImg.jpg; sourceTree = "<group>"; };
+		0094B6C52007A8D1002638F0 /* DonationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonationVC.swift; sourceTree = "<group>"; };
+		0094B6C72007E2BB002638F0 /* sideBySide.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sideBySide.jpg; sourceTree = "<group>"; };
+		0094B6C92007F4D4002638F0 /* CircleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 		0097714D1FB8ABEE002A74E1 /* YMHPodcast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YMHPodcast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		009771501FB8ABEE002A74E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		009771551FB8ABEE002A74E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -95,6 +81,18 @@
 		0097716C1FB8ABEE002A74E1 /* YMHPodcastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMHPodcastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		009771701FB8ABEE002A74E1 /* YMHPodcastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YMHPodcastUITests.swift; sourceTree = "<group>"; };
 		009771721FB8ABEE002A74E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0098C5F4200A7F4E003E2FB2 /* ArtDonationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArtDonationPage.swift; sourceTree = "<group>"; };
+		0098C5F6200A845F003E2FB2 /* TimDonationPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimDonationPage.swift; sourceTree = "<group>"; };
+		0098C5FA200BC672003E2FB2 /* theo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = theo.JPG; sourceTree = "<group>"; };
+		0098C5FD200BCEB8003E2FB2 /* jeans.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = jeans.mp3; sourceTree = "<group>"; };
+		0098C5FF200BCEF8003E2FB2 /* WipeDown.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = WipeDown.mp3; sourceTree = "<group>"; };
+		0098C601200BCF11003E2FB2 /* BigWords.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = BigWords.mp3; sourceTree = "<group>"; };
+		0098C603200BCF2A003E2FB2 /* DirtyBitch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DirtyBitch.mp3; sourceTree = "<group>"; };
+		0098C605200BCF31003E2FB2 /* DoingGood.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = DoingGood.mp3; sourceTree = "<group>"; };
+		0098C607200BCF49003E2FB2 /* talkShit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = talkShit.mp3; sourceTree = "<group>"; };
+		00EBBD892005449B00804614 /* momSoundBoard.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = momSoundBoard.jpg; sourceTree = "<group>"; };
+		00EBBD8B2005462100804614 /* dancingMommies.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = dancingMommies.gif; sourceTree = "<group>"; };
+		00EBBD8D200548B100804614 /* podcastIntro.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = podcastIntro.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +125,7 @@
 			children = (
 				0007FBA91FBA3A3B00AFFF67 /* SoundBiteCell.swift */,
 				0007FBAD1FBA60E800AFFF67 /* SoundBites.swift */,
+				00213EC91FC1CB3A000EEAD7 /* CreateArrayFunction.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -135,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				006505391FBB98FF00ACB43F /* StylesSegmentedControl.swift */,
+				0094B6C92007F4D4002638F0 /* CircleButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,6 +144,9 @@
 			children = (
 				002BEFB81FBBA6150026E2C8 /* HomeViewController.swift */,
 				002E92A11FBD2579008220D7 /* TourDatesVC.swift */,
+				0094B6C52007A8D1002638F0 /* DonationVC.swift */,
+				0098C5F4200A7F4E003E2FB2 /* ArtDonationPage.swift */,
+				0098C5F6200A845F003E2FB2 /* TimDonationPage.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -154,31 +157,6 @@
 				0007FBA71FB9EC2500AFFF67 /* SitePaths.swift */,
 			);
 			path = Paths;
-			sourceTree = "<group>";
-		};
-		0007FBB31FBB3E2100AFFF67 /* Sounds */ = {
-			isa = PBXGroup;
-			children = (
-				0007FBD31FBB3E9F00AFFF67 /* DoNotHitMeMommy.mp3 */,
-				0007FBC91FBB3E9E00AFFF67 /* DontBuyPizzaAtAGasStation.mp3 */,
-				0007FBD01FBB3E9F00AFFF67 /* EcoSexWTF.mp3 */,
-				0007FBC41FBB3E9D00AFFF67 /* FuckMeTonight.mp3 */,
-				0007FBC31FBB3E9D00AFFF67 /* ShitInHere.mp3 */,
-				0007FBB61FBB3E9C00AFFF67 /* KimAsshole.mp3 */,
-				0007FBE61FBB3EA200AFFF67 /* KnowWhatImSayin.mp3 */,
-				0007FBB71FBB3E9C00AFFF67 /* MooseSoupLadyOhMyLord.mp3 */,
-				0007FBE01FBB3EA200AFFF67 /* Respek.mp3 */,
-				0007FBDA1FBB3EA000AFFF67 /* Scatman.mp3 */,
-				0007FBD81FBB3EA000AFFF67 /* ThisShitShouldBeEasy.mp3 */,
-				0007FBE51FBB3EA200AFFF67 /* JustDial.mp3 */,
-				0007FBCE1FBB3E9E00AFFF67 /* SupNigga.mp3 */,
-				0007FBDD1FBB3EA100AFFF67 /* WannaTalkSomeShit.mp3 */,
-				0007FBBC1FBB3E9D00AFFF67 /* WhosRandy.mp3 */,
-				0007FBD61FBB3E9F00AFFF67 /* YallFinished.mp3 */,
-				0007FBCC1FBB3E9E00AFFF67 /* youWannaFuckWitMeMe.mp3 */,
-				0007FBB41FBB3E3900AFFF67 /* chingChong.mp3 */,
-			);
-			path = Sounds;
 			sourceTree = "<group>";
 		};
 		009771441FB8ABED002A74E1 = {
@@ -204,7 +182,8 @@
 		0097714F1FB8ABEE002A74E1 /* YMHPodcast */ = {
 			isa = PBXGroup;
 			children = (
-				0007FBB31FBB3E2100AFFF67 /* Sounds */,
+				0098C5FC200BC9D7003E2FB2 /* Intro Sounds */,
+				00EBBD882005440000804614 /* Images */,
 				0007FBA61FB9EB2500AFFF67 /* Paths */,
 				0007FBA51FB9EB1B00AFFF67 /* Controller */,
 				0007FBA41FB9EB1500AFFF67 /* View */,
@@ -235,6 +214,32 @@
 				009771721FB8ABEE002A74E1 /* Info.plist */,
 			);
 			path = YMHPodcastUITests;
+			sourceTree = "<group>";
+		};
+		0098C5FC200BC9D7003E2FB2 /* Intro Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				0098C5FD200BCEB8003E2FB2 /* jeans.mp3 */,
+				0098C607200BCF49003E2FB2 /* talkShit.mp3 */,
+				0098C601200BCF11003E2FB2 /* BigWords.mp3 */,
+				0098C605200BCF31003E2FB2 /* DoingGood.mp3 */,
+				0098C603200BCF2A003E2FB2 /* DirtyBitch.mp3 */,
+				0098C5FF200BCEF8003E2FB2 /* WipeDown.mp3 */,
+			);
+			path = "Intro Sounds";
+			sourceTree = "<group>";
+		};
+		00EBBD882005440000804614 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				00EBBD8B2005462100804614 /* dancingMommies.gif */,
+				00EBBD8D200548B100804614 /* podcastIntro.png */,
+				0094B6C12007A19F002638F0 /* mainImg.jpg */,
+				0098C5FA200BC672003E2FB2 /* theo.JPG */,
+				0094B6C72007E2BB002638F0 /* sideBySide.jpg */,
+				00EBBD892005449B00804614 /* momSoundBoard.jpg */,
+			);
+			path = Images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,28 +349,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0098C602200BCF11003E2FB2 /* BigWords.mp3 in Resources */,
 				0097715B1FB8ABEE002A74E1 /* LaunchScreen.storyboard in Resources */,
-				0007FBF81FBB3EA300AFFF67 /* FuckMeTonight.mp3 in Resources */,
-				0007FC041FBB3EA300AFFF67 /* EcoSexWTF.mp3 in Resources */,
-				0007FC0C1FBB3EA300AFFF67 /* ThisShitShouldBeEasy.mp3 in Resources */,
-				0007FC071FBB3EA300AFFF67 /* DoNotHitMeMommy.mp3 in Resources */,
-				0007FBEB1FBB3EA300AFFF67 /* MooseSoupLadyOhMyLord.mp3 in Resources */,
-				0007FBFD1FBB3EA300AFFF67 /* DontBuyPizzaAtAGasStation.mp3 in Resources */,
-				0007FC111FBB3EA300AFFF67 /* WannaTalkSomeShit.mp3 in Resources */,
-				0007FBEA1FBB3EA300AFFF67 /* KimAsshole.mp3 in Resources */,
+				00EBBD8E200548B100804614 /* podcastIntro.png in Resources */,
 				0007FBB21FBB3DF100AFFF67 /* YourMomsInTheFuckinStands.mp3 in Resources */,
-				0007FBB51FBB3E3900AFFF67 /* chingChong.mp3 in Resources */,
+				0098C604200BCF2A003E2FB2 /* DirtyBitch.mp3 in Resources */,
+				0098C600200BCEF8003E2FB2 /* WipeDown.mp3 in Resources */,
+				0098C5FB200BC672003E2FB2 /* theo.JPG in Resources */,
+				0098C5FE200BCEB8003E2FB2 /* jeans.mp3 in Resources */,
+				0094B6C82007E2BB002638F0 /* sideBySide.jpg in Resources */,
+				00EBBD8C2005462200804614 /* dancingMommies.gif in Resources */,
+				0094B6C22007A1A0002638F0 /* mainImg.jpg in Resources */,
 				009771581FB8ABEE002A74E1 /* Assets.xcassets in Resources */,
-				0007FC001FBB3EA300AFFF67 /* youWannaFuckWitMeMe.mp3 in Resources */,
-				0007FC191FBB3EA300AFFF67 /* JustDial.mp3 in Resources */,
-				0007FBF01FBB3EA300AFFF67 /* WhosRandy.mp3 in Resources */,
-				0007FC1A1FBB3EA300AFFF67 /* KnowWhatImSayin.mp3 in Resources */,
+				0098C608200BCF49003E2FB2 /* talkShit.mp3 in Resources */,
 				009771561FB8ABEE002A74E1 /* Main.storyboard in Resources */,
-				0007FBF71FBB3EA300AFFF67 /* ShitInHere.mp3 in Resources */,
-				0007FC141FBB3EA300AFFF67 /* Respek.mp3 in Resources */,
-				0007FC021FBB3EA300AFFF67 /* SupNigga.mp3 in Resources */,
-				0007FC0A1FBB3EA300AFFF67 /* YallFinished.mp3 in Resources */,
-				0007FC0E1FBB3EA300AFFF67 /* Scatman.mp3 in Resources */,
+				00EBBD8A2005449C00804614 /* momSoundBoard.jpg in Resources */,
+				0098C606200BCF31003E2FB2 /* DoingGood.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,9 +392,14 @@
 				0007FBA81FB9EC2500AFFF67 /* SitePaths.swift in Sources */,
 				0007FBAE1FBA60E800AFFF67 /* SoundBites.swift in Sources */,
 				009771511FB8ABEE002A74E1 /* AppDelegate.swift in Sources */,
+				0098C5F7200A845F003E2FB2 /* TimDonationPage.swift in Sources */,
 				0065053A1FBB98FF00ACB43F /* StylesSegmentedControl.swift in Sources */,
 				002BEFB91FBBA6150026E2C8 /* HomeViewController.swift in Sources */,
+				0094B6CA2007F4D4002638F0 /* CircleButton.swift in Sources */,
+				00213ECA1FC1CB3A000EEAD7 /* CreateArrayFunction.swift in Sources */,
 				0007FBAA1FBA3A3B00AFFF67 /* SoundBiteCell.swift in Sources */,
+				0098C5F5200A7F4E003E2FB2 /* ArtDonationPage.swift in Sources */,
+				0094B6C62007A8D1002638F0 /* DonationVC.swift in Sources */,
 				002E92A21FBD2579008220D7 /* TourDatesVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -563,10 +567,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				DEVELOPMENT_TEAM = GFKBXNZ6XU;
 				INFOPLIST_FILE = YMHPodcast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "JacAll-Dev.YMHPodcast";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JAPPDevelopment.YMHPodcast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -578,10 +582,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4S9VPH83H7;
+				DEVELOPMENT_TEAM = GFKBXNZ6XU;
 				INFOPLIST_FILE = YMHPodcast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "JacAll-Dev.YMHPodcast";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JAPPDevelopment.YMHPodcast;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
